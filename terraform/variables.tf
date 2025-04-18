@@ -1,3 +1,5 @@
+#Variables for the workspace
+
 variable "region" {
   description = "AWS region"
   type        = string
