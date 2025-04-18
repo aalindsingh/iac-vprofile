@@ -1,5 +1,3 @@
-#Variables for the workspace
-
 variable "region" {
   description = "AWS region"
   type        = string
@@ -9,5 +7,5 @@ variable "region" {
 variable "clusterName" {
   description = "Name of the EKS cluster"
   type        = string
-  default     = "vprofile-eks"
+  default     = "kitops-eks"
 }
